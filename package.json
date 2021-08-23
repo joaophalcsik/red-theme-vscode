@@ -1,0 +1,22 @@
+{
+    "name": "simple-red-theme",
+    "displayName": "simple red theme",
+    "description": "Made by myself from scratch :)",
+    "version": "1.1.0",
+    "publisher": "joaophalcsik",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "simple red theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/simple red theme-color-theme.json"
+            }
+        ]
+    }
+}
