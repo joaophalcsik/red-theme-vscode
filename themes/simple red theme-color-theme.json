@@ -1,5 +1,5 @@
 {
-  "name": "Simple Red",
+  "name": "Red Theme",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -1789,11 +1789,10 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#7f848e"
       }
     },
-    
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
@@ -1820,28 +1819,28 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Python Keyword Control",
       "scope": "keyword.control.import.python,keyword.control.flow.python",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
       "name": "markup.italic.markdown",
       "scope": "markup.italic.markdown",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     }
   ],
@@ -1917,24 +1916,24 @@
     "editorLineNumber.foreground": "#797979",
     "editorCursor.foreground": "#929292",
     "editorCursor.background": "#000000",
-    "editor.selectionBackground": "#1d1d1d",
-    "editor.inactiveSelectionBackground": "#212224",
+    "editor.selectionBackground": "#282828",
+    "editor.inactiveSelectionBackground": "#282828",
     "editorWhitespace.foreground": "#cfcfcf3c",
     "editor.selectionHighlightBackground": "#6b707526",
-    "editor.selectionHighlightBorder": "#495F77",
+    "editor.selectionHighlightBorder": "#292c2e",
     "editor.findMatchBackground": "#281d1d",
-    "editor.findMatchBorder": "#74879f",
+    "editor.findMatchBorder": "#434b54",
     "editor.findMatchHighlightBackground": "#5f6f8026",
     "editor.findMatchHighlightBorder": "#5f6f8026",
     "editor.findRangeHighlightBackground": "#3a3d4166",
     "editor.findRangeHighlightBorder": "#ffffff00",
     "editor.rangeHighlightBackground": "#ffffff0b",
     "editor.rangeHighlightBorder": "#ffffff00",
-    "editor.hoverHighlightBackground": "#264f7840",
-    "editor.wordHighlightStrongBackground": "#5f6f8026",
+    "editor.hoverHighlightBackground": "#282828",
+    "editor.wordHighlightStrongBackground": "#282828",
     "editor.wordHighlightBackground": "#454545b8",
-    "editor.lineHighlightBackground": "#ffffff0A",
-    "editor.lineHighlightBorder": "#282828",
+    "editor.lineHighlightBackground": "#323131",
+    "editor.lineHighlightBorder": "#00000000",
     "editorLineNumber.activeForeground": "#cdcdcd",
     "editorLink.activeForeground": "#bebc3dd3",
     "editorIndentGuide.background": "#666666",
@@ -2079,7 +2078,7 @@
     "minimapGutter.modifiedBackground": "#0c7d9d",
     "minimapGutter.deletedBackground": "#94151b",
     "minimap.findMatchHighlight": "#281d1d",
-    "minimap.selectionHighlight": "#1d1d1d",
+    "minimap.selectionHighlight": "#282828",
     "minimap.errorHighlight": "#f52e2e8b",
     "minimap.warningHighlight": "#cca700c7",
     "minimap.background": "#0f0f0f",
